@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " G ",
+    " T ",
+    " S "
+  ],
+  "key": {
+    "G": { "item": "minecraft:gold_block" },
+    "T": { "item": "minecraft:totem_of_undying" },
+    "S": { "item": "minecraft:stick" }
+  },
+  "result": {
+    "item": "sunblade:sunblade"
+  }
+}
