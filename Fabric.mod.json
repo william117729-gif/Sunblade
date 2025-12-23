@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "sunblade",
+  "version": "1.0.0",
+  "name": "Sunblade",
+  "description": "A sword powered by the Sun",
+  "authors": ["YourName"],
+  "entrypoints": {
+    "main": ["com.example.sunblade.SunbladeMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.29",
+    "fabric": "*",
+    "minecraft": "1.20.1"
+  }
+}
