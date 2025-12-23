@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": { "item": "sunblade:sunblade" },
+    "title": { "text": "Command the Sun" },
+    "description": { "text": "Forge the Sunblade" },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "crafted_sunblade": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "sunblade:sunblade"
+      }
+    }
+  },
+  "requirements": [
+    ["crafted_sunblade"]
+  ]
+}
